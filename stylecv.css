@@ -1,12 +1,11 @@
-
-html, body {
+html, body{
  margin:0;
  padding:0;
  }
 .liseret{
 	background-color: #00BCD4;
 	width: 25%;
-	height: 1250px;
+	height: 1450px;
 	display: inline-block;
 	float: left;
 	margin-left: 0px;
@@ -40,24 +39,45 @@ border-radius:50%;
 }
 .propos{
 	text-align: justify;
-	padding: 20px 30px 200px 30px;
+	padding: 20px 30px 400px 30px;
 }
 .loisirs p{
 	display: flex;
 	justify-content: space-around;
-	color: #616161;
-	-moz-border-radius:80%;
-	-webkit-border-radius:80%;
-	border-radius:80%;
+	color: black;
+	padding-bottom: 20px;	
+}
+.loisirs .fas{
+	border: 2px solid black;
+	-moz-border-radius:70%;
+	-webkit-border-radius:70%;
+	border-radius:70%;
+	padding: 4px 4px 4px 4px;
 }
 header{
 	text-align: left;
-	padding-top: 120px;
+	padding-top: 100px;
 }
 .identite{
 	font-size: 80px;
 	text-transform: uppercase;
 	margin-left: 5px;
+}
+.prenom{
+	color: #00BCD4;
+}
+.surligner{
+	text-decoration: underline solid #00BCD4;
+}
+h1 .fas, h2 .fas, h3 .fas{
+	font-size: 36pt;
+	margin: 15px;
+	color: #00BCD4;
+}
+h1, h2, h3{
+	text-transform: uppercase;
+	 font-size: 30px;
+	 border-bottom: 2px solid #00BCD4;
 }
 .fonction{
 	color: #424242;
@@ -70,33 +90,36 @@ section{
 	margin-top: 40px;
 	margin-right: 20px;
 }
-h1, h2, h3{
-	border-bottom: 2px solid #00BCD4;
-}
 .bloc1, .bloc2, .bloc3{
 	display: flex;
 	justify-content: space-between;
+	text-align: justify;
+}
+.date .fas, .far{
+	color: #00BCD4;
+	margin: 10px;
+}
+.bloc1, .text{
+	margin-top: 4px;
 }
 .reco1, .reco2{
 	font-weight: bold;
 	margin-right: 300px;
 }
-.text{
-	float: right;
-	margin-left: 30px;
+.nom{
+	text-transform: uppercase;
 }
-
+.mail{
+	font-style: italic;
+	font-weight: normal;
+}
+.text{
+	margin-left: 30px;
+	padding-left: 5px;
+}
+.date{
+	padding-right: 6px;
+}
 
 	
-@media all and (max-width: 780px)
 
-{
-	.liseret{
-		padding: 10px;
-		width: 15%;
-	}
-	.bloc3{
-		display: block;
-		justify-content: space-between;
-	}
-}
