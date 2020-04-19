@@ -120,6 +120,22 @@ section{
 .date{
 	padding-right: 6px;
 }
-
+@media screen and (max-width: 780px)
+{
+	body{
+		margin-left: 4px;
+	}
+	.liseret{
+		display: block;
+		bottom: 0;
+		width: 100%;
+		height: 300px;
+		overflow: scroll;
+	}
+	.reco1, .reco2{
+		margin-right: 10px;
+		margin-bottom: 10px;
+	}
+}
 	
 
