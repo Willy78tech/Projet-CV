@@ -131,6 +131,10 @@ section{
 		width: 100%;
 		height: 300px;
 		overflow: scroll;
+		background-color: #FFFF8D;
+	}
+	.propos{
+		padding-bottom: 20px;
 	}
 	.reco1, .reco2{
 		margin-right: 10px;
