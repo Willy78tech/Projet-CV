@@ -5,7 +5,7 @@ html, body{
 .liseret{
 	background-color: #00BCD4;
 	width: 25%;
-	height: 1470px;
+	height: 1430px;
 	display: inline-block;
 	float: left;
 	margin-left: 0px;
@@ -39,7 +39,7 @@ border-radius:50%;
 }
 .propos{
 	text-align: justify;
-	padding: 20px 30px 400px 30px;
+	padding: 20px 30px 350px 30px;
 }
 .loisirs p{
 	display: flex;
@@ -77,7 +77,7 @@ h2 .fas, h3 .fas, h4 .fas{
 }
 h2, h3, h4{
 	text-transform: uppercase;
-	 font-size: 30px;
+	 font-size: 25px;
 	 border-bottom: 2px solid #00BCD4;
 }
 .fonction{
@@ -88,7 +88,7 @@ h2, h3, h4{
 section{
 	display: flex;
 	flex-direction: column;
-	margin-top: 40px;
+	margin-top: 10px;
 	margin-right: 20px;
 }
 .bloc1, .bloc2, .bloc3{
