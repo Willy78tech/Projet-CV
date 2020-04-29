@@ -45,8 +45,8 @@ border-radius:50%;
 	display: flex;
 	justify-content: space-around;
 	color: black;
-	padding-bottom: 20px;
-	padding-top: 20px;	
+	padding-bottom: 10px;
+	padding-top: 2px;	
 }
 .loisirs .fas{
 	border: 2px solid black;
@@ -121,7 +121,7 @@ section{
 .date{
 	padding-right: 6px;
 }
-@media screen and (max-width: 780px)
+@media screen and (max-width: 1024px)
 {
 	.liseret{
 		display: block;
